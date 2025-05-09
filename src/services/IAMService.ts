@@ -61,17 +61,6 @@ export interface VerifySessionResponse {
 
 export class IAMService {
   private readonly baseUrl: string = "https://dev-backend.i-am.technology";
-  private readonly access: {
-    name: string;
-    secret: string;
-  } = {
-    name: "tester",
-    secret: "DigitalIam2025!",
-  };
-
-  private readonly authHeader = `Basic ${
-    btoa(`${this.access.name}:${this.access.secret}`)
-  }`;
 
   /**
    * Signs data with a private key
