@@ -147,7 +147,6 @@ export class IAMService {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "Authorization": this.authHeader,
           },
           body: JSON.stringify(requestBody),
         },
@@ -186,7 +185,6 @@ export class IAMService {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "Authorization": this.authHeader,
           },
           body: JSON.stringify(requestBody),
         },
@@ -223,7 +221,6 @@ export class IAMService {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "Authorization": this.authHeader,
           },
           body: JSON.stringify(requestBody),
         },
