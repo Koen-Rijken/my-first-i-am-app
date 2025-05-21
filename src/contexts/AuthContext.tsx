@@ -13,9 +13,9 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | null>(null);
 
 const iamService = new IAMService();
-const APP_ID = 'ace20281-6819-4e00-b39b-a95cafabf6bc';      
+const APP_ID = '25700c11-6199-4ab1-b20b-215ff589a3e7';      
 const HUB_ID = '6bf8216f-a8ff-46ef-a43f-b9c1ab831505';    
-const PRIVATE_KEY = 'MCwCAQAwBQYDK2VwBCDFsqAu5c7nGvnMKHLUz7X2Vyls9RVRWAibx7vYeSv1eg==';
+const PRIVATE_KEY = 'MCwCAQAwBQYDK2VwBCDne1VQ7hq2H2wjFEulVquEIed/N/r7hhjY8FDFC8dTOA==';
  
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
